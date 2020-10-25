@@ -5,7 +5,12 @@ Example compilation of f90 Code (interpolation routine from Numerical Recepies):
 
 With out dependencies,
 
+
+Comipling standalone routines..
+
 f2py2.7 -c  internal_standalone.f90 -L/usr/lib/x86_64-linux-gnu/ -lfftw3 -m internal_loop2 -DF2PY_REPORT_ON_ARRAY_COPY=1
+
+
 
 Issues to be aware of:
 
