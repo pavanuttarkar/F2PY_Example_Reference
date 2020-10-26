@@ -55,9 +55,10 @@ Example Usage (in Python):
    -------
    fs : rank-1 array('f') with bounds (num)
 
-   In [4]: fib.fib_series(11)
-   Out[4]: 
-   array([ 0., 1.,  1.,  2.,  3.,  5.,  8., 13., 21., 34., 55.],
+   
+In [4]: fib.fib_series(11)
+   
+Out[4]: array([ 0., 1.,  1.,  2.,  3.,  5.,  8., 13., 21., 34., 55.],
       dtype=float32)
 
    
