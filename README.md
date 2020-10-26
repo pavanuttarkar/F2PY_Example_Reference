@@ -33,6 +33,7 @@ Example Usage (in Python):
    In [1]: import fib
 
    In [2]: fib?  
+   
    Type:        module
    String form: <module 'fib' from 'fib.so'>
    Docstring:  
@@ -42,6 +43,7 @@ Example Usage (in Python):
 
 
    In [3]: fib.fib_series?
+   
    Type:        fortran
    String form: <fortran object>
    Docstring:  
