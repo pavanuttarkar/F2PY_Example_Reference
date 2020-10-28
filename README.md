@@ -1,7 +1,7 @@
 # F2PY_Example_Reference
 This is a f2py compilation example, for any future reference.
 
-Example compilation of f90 Code (interpolation routine from Numerical Recepies):
+Example compilation of f90 Code:
 
 With out dependencies,
 
