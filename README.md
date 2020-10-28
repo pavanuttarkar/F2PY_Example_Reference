@@ -3,10 +3,10 @@ This is a f2py compilation example, for any future reference.
 
 Example compilation of f90 Code:
 
-With out dependencies,
+Without dependencies,
 
 
-Comipling standalone routines..
+Compiling standalone routines..
 
    f2py2.7 -c fib.f90 -m fib
    
