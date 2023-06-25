@@ -1,0 +1,9 @@
+#!/bin/bash
+
+f2py \
+    -c  geo_delay.f90 -m geo \
+    -lm \
+    -DF2PY_REPORT_ON_ARRAY_COPY=1 \
+    --f90flags='-fcheck=bounds -frepack-arrays -C' \
+    --fcompiler='gfortran'
+
