@@ -7,8 +7,8 @@ subroutine fib_series(num,fs)
       !This is how it's done :P
 
 
-      integer(kind=8), intent(in) :: num
-      real(kind=8), intent(out), dimension(num)::fs
+      integer(kind=8),  intent(in) :: num
+      real(kind=8),     intent(out), dimension(num)::fs
       integer(kind=8)             :: i
       
 
