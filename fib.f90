@@ -1,11 +1,19 @@
+
+
 subroutine fib_series(num,fs)
       
-      integer(kind=1), intent(in) :: num
-      real(kind=4)   , intent(out)::fs(num) 
-      integer(kind=1)             :: i
+      !Example function taken from numpy cookbook..      
+      !Remember declaring varibales :)
+      !This is how it's done :P
+
+
+      integer(kind=8), intent(in) :: num
+      real(kind=8), intent(out), dimension(num)::fs
+      integer(kind=8)             :: i
       
 
       do i=1,num
+
          if (i.EQ.1) then
             fs(i) = 0.0
 
