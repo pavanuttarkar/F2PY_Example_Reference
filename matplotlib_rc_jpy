@@ -1,0 +1,32 @@
+axes.linewidth		: 2
+
+xtick.direction 	: in
+ytick.direction 	: in
+
+xtick.major.size 	: 10 
+ytick.major.size 	: 10
+
+xtick.minor.size        : 5
+ytick.minor.size        : 5
+
+xtick.top 		: True
+ytick.right		: True
+
+ytick.major.width	: 1
+xtick.major.width	: 1
+
+ytick.minor.visible	: True
+xtick.minor.visible	: True
+
+ytick.minor.width       : 0.5
+xtick.minor.width       : 0.5
+
+figure.dpi		: 80
+font.size		: 20
+
+#axes.titley             : 1.2    
+axes.titlepad           : 5 
+figure.figsize		: 10, 10
+
+
+lines.markersize        :10
